@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Ramshi Jikolo's Profile</title>
+<title>Laroca Programmer</title>
 <style>
 .fa {
     padding: 20px;
@@ -25,14 +25,26 @@
 .fa-twitter {
     background: #55ACEE;
     color: white;
-    
+}
+.fa-skype {
+	background: #FF5733;
+	color: white; 
+}
+
+.fa-instagram {
+	background: #808000
+	color: white;
+
 </style>
 </head>
 
 <body>
  <div id="Home" class="tabcontent">
   <h3>Home</h3>
-  <p>      </p>
+  <p1> I'm a very spontaneous person, enjoying listening to music, being creative as well as meeting new people on a daily basis </p>
+
+  <p2> At 
+
 </div>
 
 <div id="About" class="tabcontent">
@@ -47,7 +59,11 @@
 
 <!-- Add font awesome icons -->
 <a href="https://www.facebook.com/balise.jikolo" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a></p>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-skype">
+<a href="#" class="fa fa-instagram">
+
+</p>
 </div>
 
 <div id="Skills" class="tabcontent">
@@ -59,7 +75,3 @@
 <button class="tablink" onclick="openCity('Paris', this, 'green')">About</button>
 <button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Contact</button>
 <button class="tablink" onclick="openCity('Oslo', this, 'orange')">Skills</button> 
-
-</body>
-
-</html> 
