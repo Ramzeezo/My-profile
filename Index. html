@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Ramshi Jikolo's Profile</title>
+</head>
 
+<body>
+ <div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>      </p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>    </p>
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Contact</h3>
+  <p><!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<a href="https://www.facebook.com/balise.jikolo" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a></p>
+</div>
+
+<div id="Skills" class="tabcontent">
+  <h3>Skills</h3>
+  <p> </p>
+</div>
+
+<button class="tablink" onclick="openCity('Home', this, 'red')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openCity('Paris', this, 'green')">About</button>
+<button class="tablink" onclick="openCity('Tokyo', this, 'blue')">Contact</button>
+<button class="tablink" onclick="openCity('Oslo', this, 'orange')">Skills</button> 
+
+</body>
+
+</html> 
